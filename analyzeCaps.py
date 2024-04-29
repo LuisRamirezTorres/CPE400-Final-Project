@@ -1,7 +1,7 @@
 import pyshark
 
 #Set the path to the pcap file I want to analyze
-capture = pyshark.FileCapture('./WireSharkCaps/trialone.pcapng')
+capture = pyshark.FileCapture('./WireSharkCaps/firsttrial.pcapng')
 
 pkt_num = 0
 
